@@ -1,0 +1,4 @@
+Defaults insults
+Defaults lecture = never
+Defaults env_reset,passwd_timeout=0
+%wheel ALL=(ALL:ALL) ALL

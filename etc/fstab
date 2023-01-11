@@ -1,0 +1,23 @@
+# /dev/mapper/crypt LABEL=@
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/		btrfs	rw,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=256,subvol=/@ 0 0
+
+# /dev/sda1 LABEL=EFI
+UUID=F33A-CDB7					/boot		vfat	rw,nosuid,nodev,noexec,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro 0 2
+
+# /dev/mapper/crypt LABEL=@home
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/home		btrfs	rw,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=257,subvol=/@home 0 0
+
+# /dev/mapper/crypt LABEL=@cache
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/var/cache	btrfs	rw,nosuid,nodev,noexec,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=258,subvol=/@cache 0 0
+
+# /dev/mapper/crypt LABEL=@log
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/var/log	btrfs	rw,nosuid,nodev,noexec,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=260,subvol=/@log 0 0
+
+# /dev/mapper/crypt LABEL=@tmp
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/var/tmp	btrfs	rw,nosuid,nodev,noexec,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=261,subvol=/@tmp 0 0
+
+# /dev/mapper/crypt LABEL=@snapshots
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/.snapshots	btrfs	rw,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=259,subvol=/@snapshots 0 0
+
+# /dev/mapper/crypt LABEL=@btrfs
+UUID=b55807f1-7982-43e6-8dec-9688ea3ba2a6	/btrfs		btrfs	rw,noatime,compress-force=zstd:3,space_cache=v2,autodefrag,commit=120,subvolid=5,subvol=/ 0 0
